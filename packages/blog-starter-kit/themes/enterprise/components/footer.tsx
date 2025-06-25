@@ -49,6 +49,10 @@ export const Footer = () => {
 										Newsletter
 									</a>
 								</li>
+                	<a href="https://rankrace.com/" className="hover:underline">
+										Shopify SEO Expert & Agency
+									</a>
+								</li>
 							</ul>
 						</div>
 
@@ -64,11 +68,6 @@ export const Footer = () => {
 								<li>
 									<a href="https://rankrace.com/#services" className="hover:underline">
 										Use Cases
-									</a>
-								</li>
-								<li>
-									<a href="https://github.com/rankraceseo" className="hover:underline">
-										Source Code
 									</a>
 								</li>
 							</ul>
