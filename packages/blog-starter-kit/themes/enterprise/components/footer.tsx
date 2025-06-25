@@ -33,27 +33,31 @@ export const Footer = () => {
 							<p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">
 								Stay in touch
 							</p>
-							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
-								<li>
-									<a href="https://rankrace.com/#contact" className="hover:underline">
-										Contact us
-									</a>
-								</li>
-								<li>
-									<a href="https://rankrace.com/#contact" className="hover:underline">
-										Book a demo
-									</a>
-								</li>
-								<li>
-									<a href="https://rankrace.com/blog/rss.xml" className="hover:underline">
-										Newsletter
-									</a>
-								</li>
-                	<a href="https://rankrace.com/" className="hover:underline">
-										Shopify SEO Expert & Agency
-									</a>
-								</li>
-							</ul>
+
+              <ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
+                <li>
+    <a href="https://rankrace.com/#contact" className="hover:underline">
+      Contact us
+    </a>
+  </li>
+  <li>
+    <a href="https://rankrace.com/#contact" className="hover:underline">
+      Book a demo
+    </a>
+  </li>
+  <li>
+    <a href="https://rankrace.com/blog/rss.xml" className="hover:underline">
+      Newsletter
+    </a>
+  </li>
+  {/* ✅ NEW list-item wrapper */}
+  <li>
+    <a href="https://rankrace.com/" className="hover:underline">
+      Shopify SEO Expert & Agency
+    </a>
+  </li>
+</ul>
+
 						</div>
 
 						{/* Resources */}
